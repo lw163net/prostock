@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="chardet-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/chardet-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/cpdetector_1.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/TTS_library_stub_3.0_market.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/youmi-android_v3.08_2012-09-18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/youmi-appoffer_v2.13_b_2012-05-25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

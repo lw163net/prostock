@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/RelativeLayout02" android:layout_height="fill_parent" android:layout_width="fill_parent"><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/menuhome">
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txthometitle" android:layout_gravity="center" android:textSize="20dp" android:layout_centerHorizontal="true">
+				</TextView>
+				<Button
+				            android:id="@+id/btnqgg"
+				            android:layout_width="wrap_content"
+				            android:layout_height="25dp"
+				            android:text="去除广告" android:layout_alignParentRight="true" android:background="@drawable/button_orange"/>
+				<LinearLayout
+				    xmlns:umadsdk="http://schemas.android.com/apk/res/com.liwei.prostock"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" android:layout_below="@id/txthometitle">
+					
+				    <net.youmi.android.AdView
+				        android:id="@+id/adView"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        umadsdk:backgroundColor="#4076AA"
+				        umadsdk:backgroundTransparent="255"
+				        umadsdk:textColor="#ffffff" >
+
+				        
+				    </net.youmi.android.AdView>
+				</LinearLayout>
+
+</RelativeLayout>
+<!-- 需要设置命名空间 :umadsdk ,请务必在"http://schemas.android.com/apk/res/"后面填写您的应用包名 -->
+
+<LinearLayout android:id="@+id/llfield" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_above="@+id/LinearLayout02" android:layout_below="@+id/RelativeLayout01"></LinearLayout><LinearLayout android:id="@+id/llgg" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:background="@drawable/panel" android:layout_alignParentBottom="true">
+			  <LinearLayout android:layout_height="wrap_content" android:id="@+id/lanmuLinear" android:layout_width="fill_parent">
+         <HorizontalScrollView android:layout_height="wrap_content" android:background="@android:color/transparent" android:id="@+id/scrollview" android:layout_width="fill_parent" android:scrollbars="none">
+             <FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:id="@+id/frameLayout1" android:layout_height="fill_parent">
+                 <LinearLayout android:background="@android:color/transparent" android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="wrap_content">
+                     <GridView android:layout_height="wrap_content" android:horizontalSpacing="6dp" android:layout_width="wrap_content" android:background="@android:color/transparent" android:id="@+id/gridViewhome"></GridView>
+                 </LinearLayout>
+             </FrameLayout>
+         </HorizontalScrollView>
+     </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>
+
+
+
+
+

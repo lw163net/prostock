@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_rss_all">
+           <item>string_rss_cjw,财经网,caijing</item>
+           <item>string_rss_sina,新浪网,sina_logo</item>
+           <item>string_rss_163,网易,wy163_logo</item>
+           <item>string_rss_sohu,搜狐网,sohu_logo</item>
+           <item>string_rss_ifeng,凤凰网,ifeng_logo</item>
+    </string-array>
+    <string-array name="string_rss_cjw">
+         <item>新闻,http://www.caijing.com.cn/rss/news.xml</item>
+         <item>金融资本,http://www.caijing.com.cn/rss/financial.xml</item>
+         <item>公司产业,http://www.caijing.com.cn/rss/industrial.xml</item>
+         <item>政治经济,http://www.caijing.com.cn/rss/political.xml</item>
+         <item>海外新闻,http://www.caijing.com.cn/rss/overseas.xml</item>
+         <item>每日要闻,http://www.caijing.com.cn/rss/dailynews.xml</item>
+         <item>财经短讯,http://www.caijing.com.cn/rss/generalnews.xml</item>
+         <item>财经观察,http://magazine.caijing.com.cn/rss/financial_observer.xml</item>
+         <item>专家观点评述,http://www.caijing.com.cn/rss/opinion.xml</item>
+    </string-array>
+    <string-array name="string_rss_sina">
+         <item>财经要闻汇总,http://rss.sina.com.cn/roll/finance/hot_roll.xml</item>
+         <item>焦点新闻,http://rss.sina.com.cn/news/allnews/finance.xml</item>
+         <item>股市及时雨,http://http://rss.sina.com.cn/finance/jsy.xm</item>
+         <item>股票要闻汇总,http://rss.sina.com.cn/roll/stock/hot_roll.xml</item>
+         <item>基金要闻,http://rss.sina.com.cn/finance/fund.xml</item>
+    </string-array>
+    <string-array name="string_rss_163">
+         <item>头条新闻,http://money.163.com/special/00252EQ2/toutiaorss.xml</item>
+         <item>要闻综合,http://money.163.com/special/00252EQ2/yaowenrss.xml</item>
+         <item>宏观要闻,http://money.163.com/special/00252EQ2/macrorss.xml</item>
+         <item>证券要闻,http://money.163.com/special/00252EQ2/gushinewsrss.xml</item>
+         <item>操作指南,http://money.163.com/special/00252EQ2/caozuorss.xml</item>
+         <item>基金要闻,http://money.163.com/special/00252EQ2/jjywrss.xml</item>
+         <item>财经专题,http://money.163.com/special/00252LIB/cjztrss.xml</item>
+    </string-array>
+    <string-array name="string_rss_sohu">
+         <item>公司新闻,http://rss.business.sohu.com/rss/gongsixinwen.xml</item>
+         <item>产经新闻,http://rss.business.sohu.com/rss/gongsixinwen.xml</item>
+         <item>国际财经,http://rss.business.sohu.com/rss/guojicaijing.xml</item>
+         <item>证券要闻,http://rss.business.sohu.com/rss/zhengquanyaowen.xml</item>
+         <item>理财生活,http://rss.business.sohu.com/rss/licaishenghuo.xml</item>
+         <item>国内财经,http://rss.business.sohu.com/rss/hongguanyaowen.xml</item>
+         <item>财经评论,http://rss.business.sohu.com/rss/caijingpinglun.xml</item>
+    </string-array>
+    <string-array name="string_rss_ifeng">
+         <item>新闻,http://www.caijing.com.cn/rss/news.xml</item>
+         <item>金融资本,http://www.caijing.com.cn/rss/financial.xml</item>
+         <item>公司产业,http://www.caijing.com.cn/rss/industrial.xml</item>
+         <item>政治经济,http://www.caijing.com.cn/rss/political.xml</item>
+         <item>海外新闻,http://www.caijing.com.cn/rss/overseas.xml</item>
+    </string-array>
+</resources>

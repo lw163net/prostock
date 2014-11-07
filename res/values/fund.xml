@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stringfundtype">
+        <item>21,开放式基金</item>
+         <item>22,ETF基金</item>
+         <item>23,LOF基金</item>
+         <item>25,QDII基金</item>
+         <item>26,封闭式基金</item>
+    </string-array>
+    
+</resources>

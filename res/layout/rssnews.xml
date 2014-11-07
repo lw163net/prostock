@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+     <LinearLayout android:layout_height="wrap_content" android:id="@+id/lanmuLinear" android:layout_width="fill_parent" android:background="@drawable/backgroup">
+         <HorizontalScrollView android:layout_height="wrap_content" android:background="@android:color/transparent" android:id="@+id/scrollview" android:layout_width="fill_parent" android:scrollbars="none">
+             <FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:id="@+id/frameLayout1" android:layout_height="fill_parent">
+                 <LinearLayout android:background="@android:color/transparent" android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="wrap_content">
+                     <GridView android:layout_height="wrap_content" android:horizontalSpacing="6dp" android:layout_width="wrap_content" android:background="@android:color/transparent" android:id="@+id/gridView"></GridView>
+                 </LinearLayout>
+             </FrameLayout>
+         </HorizontalScrollView>
+     </LinearLayout>
+
+       <GridView
+           android:id="@+id/gridViewItem"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:numColumns="3" android:layout_below="@id/lanmuLinear">
+
+       </GridView>
+
+</RelativeLayout>

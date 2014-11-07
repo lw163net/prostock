@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="stringgjqh">
+	<item>hf_CL,NYMEX原油</item>
+	<item>hf_OIL,布伦特原油</item>
+	<item>hf_NG,NYMEX天然气</item>
+	<item>hf_GC,CBOT黄金</item>
+	<item>hf_SI,CBOT白银</item>
+	<item>hf_S,CBOT-黄豆</item>
+	<item>hf_W,CBOT-小麦</item>
+	<item>hf_C,CBOT-小麦</item>
+	<item>hf_BO,CBOT-黄豆油</item>
+	<item>hf_SM,CBOT-黄豆粉</item>
+	<item>hf_CAD,LME铜3个月</item>
+	<item>hf_AHD,LME铝3个月</item>
+	<item>hf_ZSD,LME锌3个月</item>
+	<item>hf_SND,LME锡3个月</item>
+	<item>hf_PBD,LME铅3个月</item>
+	<item>hf_NID,LME镍3个月</item>
+	<item>hf_SB,NYBOT-11糖</item>
+	<item>hf_CT,NYBOT-棉花</item>	
+	<item>hf_DJS,道指期货</item>
+	<item>hf_NAS,纳指期货</item>
+	<item>hf_ES,标普期货</item>
+	<item>hf_HSI,恒生指数期货</item>
+</string-array>
+</resources>

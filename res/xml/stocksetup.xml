@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="widget设置">
+		<EditTextPreference android:key="preference_widget" 
+							android:title="widget更新时间" 
+							android:summary="每次刷新的间隔分钟数,需重启widget" android:defaultValue="5">
+		</EditTextPreference>
+		<EditTextPreference android:key="preference_widget4_count" 
+							android:title="4x4widget股票数" 
+							android:summary="4x4widget部件股票一页显示个数" android:defaultValue="15">
+		</EditTextPreference>
+		<EditTextPreference android:key="preference_widget2_count" 
+							android:title="2x4widget股票数" 
+							android:summary="4x2widget部件股票一页显示个数" android:defaultValue="5">
+		</EditTextPreference>
+	</PreferenceCategory>
+
+</PreferenceScreen>

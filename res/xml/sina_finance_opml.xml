@@ -1,0 +1,18 @@
+<opml version="1.0">
+<head>
+<title>finance-新浪rss</title>
+</head>
+<body>
+<outline title="财经频道-新浪RSS" text="财经频道-新浪RSS">
+<outline text="财经要闻汇总" title="财经要闻汇总" type="rss" xmlUrl="http://rss.sina.com.cn/roll/finance/hot_roll.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="焦点新闻" title="焦点新闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/allnews/finance.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="股市及时雨" title="股市及时雨" type="rss" xmlUrl="http://rss.sina.com.cn/finance/jsy.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="股票要闻汇总" title="股票要闻汇总" type="rss" xmlUrl="http://rss.sina.com.cn/roll/stock/hot_roll.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="基金要闻" title="基金要闻" type="rss" xmlUrl="http://rss.sina.com.cn/finance/fund.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="理财要闻" title="理财要闻" type="rss" xmlUrl="http://rss.sina.com.cn/finance/financial.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="美股快报" title="美股快报" type="rss" xmlUrl="http://rss.sina.com.cn/finance/usstock.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="港股快讯" title="港股快讯" type="rss" xmlUrl="http://rss.sina.com.cn/finance/hkstock.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="期货要闻" title="期货要闻" type="rss" xmlUrl="http://rss.sina.com.cn/finance/future.xml" htmlUrl="www.sina.com.cn"/>
+</outline>
+</body>
+</opml>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, prostock!</string>
+    <string name="app_name">股民</string>
+	<string name="menu_ref">刷新</string>
+<string name="menu_addstock">添加</string>
+<string name="menu_exit">退出</string>
+<string name="dialog_addstock">添加</string>
+<string name="dialog_addmessage">输入基金代码:</string>
+<string name="dialog_addsucess">登加成功</string>
+<string name="title">股民(Android版)</string>
+<string name="app_string">股民</string>
+<string name="dialog_addfundmessage">输入基金代码:</string>
+<string name="menu_setup">设置</string>
+<string name="menu_addgjqh">添加国际</string>
+<string name="menu_addgrqh">添加国内</string>
+<string name="menu_grzq_exit">完成国内期货自选</string>
+<string name="hvga2">股民4x2</string>
+<string name="hvga4">股民4x4</string>
+<string name="menu_about">"关于"</string>
+<string name="about_content">程序:  prostock(股民1.2)\n原创:  风云(lw163net)\nemail: lw163net@foxmail.com\n编译:  20120223\n声明:所有数据来源互联网，本程序不保证数据准确性</string>
+</resources>

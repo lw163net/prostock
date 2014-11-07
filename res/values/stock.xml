@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="stringstockindex">
+		<item>s_sh000001,上证指数</item>
+		<item>s_sz399001,深证成指</item>
+		<item>s_sh000300,沪深300</item>
+		<item>hkHSI,恒生指数</item>
+		<item>gb_dji,道琼斯</item>
+		<item>gb_ixic,纳斯达克</item>
+		<item>gb_inx,标普500</item>
+		<item>b_NKY,日经指数</item>
+		<item>b_KOSPI,韩国成份指数</item>
+		<item>b_TWSE,台湾台北指数</item>
+		<item>b_FSSTI,新加坡海峡时报指数</item>
+		<item>b_SENSEX,印度孟买指数</item>
+		<item>b_DAX,德国DAX指数</item>
+		<item>b_CAC,法CAC40指数</item>
+		<item>b_FTSEMIB,意大利MIB指数</item>
+		<item>b_UKX,英金融时报指数</item>
+		<item>b_SPTSX,加拿大综合指数</item>
+		<item>b_IBOV,巴西BOVESPA股票指数</item>
+	</string-array>
+</resources>

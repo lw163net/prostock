@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+<RelativeLayout android:id="@+id/RelativeLayout03" android:layout_height="wrap_content" android:background="@drawable/box3" android:layout_width="fill_parent" android:layout_marginLeft="5px" android:layout_marginRight="5px" android:layout_marginTop="5px"><TextView android:layout_height="wrap_content" android:id="@+id/labdm" android:layout_width="wrap_content" android:textColor="#FFff00" android:layout_marginLeft="10px" android:text="涨幅:"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtdm" android:layout_toRightOf="@id/labdm"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labmc" android:text="名称:" android:layout_marginLeft="10px" android:textColor="#FFFF00" android:layout_below="@id/labdm"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtmc" android:layout_toRightOf="@id/labmc" android:layout_below="@id/labdm"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labxj" android:text="现价:" android:layout_toRightOf="@id/txtmc" android:layout_marginLeft="10px" android:textColor="#FFFF00"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtxj" android:layout_toRightOf="@id/labxj"></TextView>
+</RelativeLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical"><RelativeLayout android:id="@+id/RelativeLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:background="@drawable/box4" android:layout_marginLeft="5px" android:layout_marginRight="5px" android:layout_marginTop="5px"><ImageView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/fundiv1"></ImageView></RelativeLayout><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:background="@drawable/box4" android:layout_margin="5px">
+<ImageView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/fundiv2"></ImageView></RelativeLayout>
+</LinearLayout>
+
+
+
+
+</LinearLayout>

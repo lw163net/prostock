@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="stringmoney">
+	<item>DINIW,美元指数</item>
+	<item>USDCNY,美元人民币</item>
+	<item>EURUSD,欧元美元</item>
+	<item>EURCNY,欧元人民币</item>
+	<item>GBPCNY,英镑人民币</item>
+	<item>HKDCNY,港元人民币</item>
+	<item>CNYJPY,人民币日元</item>
+	<item>CADCNY,加元人民币</item>
+	<item>TWDCNY,台币人民币</item>
+	<item>AUDUSD,澳元美元</item>
+	<item>GBPUSD,英镑美元</item>
+	<item>NZDUSD,新西兰美元</item>
+	<item>USDCAD,美元加元</item>
+	<item>USDCHF,美元瑞郎</item>
+	<item>USDHKD,美元港元</item>
+	<item>USDJPY,美元日元</item>
+	<item>USDMYR,美元马币</item>
+	<item>USDSGD,美元新加坡</item>
+	<item>USDTWD,美元台币</item>
+</string-array>
+</resources>

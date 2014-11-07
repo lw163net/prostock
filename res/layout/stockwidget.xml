@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/RelativeLayout01" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/widget_4x1_bkg" android:layout_width="wrap_content" android:layout_height="fill_parent"><RelativeLayout android:id="@+id/RelativeLayout04" android:layout_height="wrap_content" android:layout_marginTop="14px" android:layout_width="fill_parent" android:layout_marginLeft="7px" android:layout_marginRight="7px" android:background="@drawable/box1"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labshindex" android:text="上证指数:" android:textStyle="bold" android:layout_marginLeft="10px" android:textColor="#FFFFFF"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtshindex" android:layout_toRightOf="@+id/labshindex" android:layout_marginLeft="10px"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labszindex" android:layout_below="@+id/labshindex" android:text="深圳成指:" android:textStyle="bold" android:layout_marginLeft="10px" android:textColor="#FFFFFF"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/labszindex" android:id="@+id/txtszindex" android:layout_below="@+id/txtshindex" android:layout_marginLeft="10px"></TextView><TextView android:layout_below="@id/txtszindex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txttime" android:layout_alignParentRight="true" android:layout_alignTop="@+id/labshindex" android:textStyle="bold|italic" android:textSize="28dp" android:layout_marginRight="5px"></TextView>
+</RelativeLayout><LinearLayout android:id="@+id/LinearLayout06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@+id/RelativeLayout04" android:layout_marginLeft="7px" android:layout_marginRight="7px" android:background="@drawable/box3" android:layout_marginTop="1px">
+
+
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_marginLeft="10px" android:orientation="vertical" android:layout_width="wrap_content" android:layout_weight="1"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm1"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/dm2" android:layout_weight="1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/dm3" android:layout_weight="1"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/dm4" android:layout_weight="1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/dm5" android:layout_weight="1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm6"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm7"></TextView></LinearLayout><LinearLayout android:id="@+id/LinearLayout03" android:layout_below="@id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_weight="1"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc1"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/mc2" android:layout_weight="1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc3"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/mc4" android:layout_weight="1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc5"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc6"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc7"></TextView></LinearLayout><LinearLayout android:id="@+id/LinearLayout04" android:layout_below="@id/LinearLayout03" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="wrap_content" android:layout_weight="1"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/xj2" android:layout_weight="1"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj3"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj4"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/xj5" android:layout_weight="1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj6"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj7"></TextView></LinearLayout><LinearLayout android:id="@+id/LinearLayout05" android:layout_below="@id/LinearLayout04" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_weight="1"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/zdf2" android:layout_weight="1"></TextView>
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/zdf3" android:layout_weight="1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/zdf4" android:layout_weight="1"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf5"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf6"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf7"></TextView></LinearLayout></LinearLayout><RelativeLayout android:id="@+id/RelativeLayout02" android:layout_width="wrap_content" android:layout_marginLeft="7px" android:layout_marginRight="7px" android:background="@drawable/box1" android:layout_height="wrap_content" android:layout_below="@+id/RelativeLayout04">
+</RelativeLayout><RelativeLayout android:id="@+id/RelativeLayout03" android:layout_alignParentBottom="true" android:layout_marginBottom="8dp" android:layout_width="fill_parent" android:layout_height="wrap_content"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:id="@+id/btnplayright" android:background="@drawable/playleft" android:text="下一页" android:layout_marginRight="10px"></Button>
+<Button android:layout_height="wrap_content" android:background="@drawable/playleft" android:id="@+id/btnplayleft" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_width="wrap_content" android:gravity="center" android:text="上一页" android:layout_marginLeft="20px"></Button>
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnref" android:layout_alignParentBottom="true" android:background="@drawable/playleft" android:text="详    情" android:layout_centerHorizontal="true"></Button>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

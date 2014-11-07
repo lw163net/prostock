@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基金类型:" />
+
+        <Spinner
+            android:id="@+id/spinner_jjrx"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_toRightOf="@id/textView1"/>
+
+        <Button
+            android:id="@+id/button_jjsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查找" android:layout_alignParentLeft="true" android:layout_below="@id/spinner_jjrx"/>
+
+        <EditText
+            android:id="@+id/editText_fund"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_toRightOf="@id/button_jjsearch" android:layout_alignTop="@id/button_jjsearch" android:layout_alignLeft="@id/spinner_jjrx">
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListViewSearchFund"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1" >
+
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/barsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" android:layout_centerInParent="true"/>
+
+</RelativeLayout>

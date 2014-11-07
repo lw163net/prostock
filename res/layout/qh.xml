@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/qh_itembackground" android:id="@+id/btn_qh_gjqh" android:text="国际期市" android:layout_weight="1"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/qh_itembackground" android:id="@+id/btn_qh_grqh" android:text="国内期市" android:layout_weight="1"></Button>
+</LinearLayout><ListView android:id="@+id/ListViewgjqh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/LinearLayout01">
+
+</ListView><ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/qhbar" android:layout_centerInParent="true"></ProgressBar>
+</RelativeLayout>
+
+
+
+

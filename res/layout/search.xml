@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+			   
+			    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_height="wrap_content" android:text="查找:" android:id="@+id/btnser" android:layout_width="wrap_content">
+			   </Button><EditText android:layout_height="wrap_content" android:id="@+id/txtsearch" android:layout_width="fill_parent"></EditText></LinearLayout>
+
+
+<ListView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/ListViewSearch" android:layout_below="@id/LinearLayout01">
+
+</ListView>
+
+<ProgressBar
+    android:id="@+id/barsearchstock"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+
+
+

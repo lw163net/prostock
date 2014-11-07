@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/qh_txt_mc" android:text="1" android:layout_marginLeft="10px" android:textSize="18dp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:layout_toRightOf="@id/qh_txt_mc" android:layout_marginLeft="10px" android:id="@+id/qh_txt_zxj" android:textSize="18dp"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/qh_txt_zde" android:layout_marginLeft="10px" android:layout_toRightOf="@id/qh_txt_zxj" android:text="zde"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/qh_txt_zf" android:text="zf" android:layout_toRightOf="@id/qh_txt_zde"></TextView>
+
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/qh_txt_mc" android:layout_marginLeft="10px" android:id="@+id/qh_lab_zrj" android:text="昨日价:"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/qh_txt_mc" android:layout_toRightOf="@id/qh_lab_zrj" android:text="zrj" android:id="@+id/qh_txt_zrj"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/qh_txt_mc" android:layout_toRightOf="@id/qh_txt_zrj" android:id="@+id/qh_lab_kpj" android:text="开盘价:" android:layout_marginLeft="10px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/qh_txt_mc" android:layout_toRightOf="@id/qh_lab_kpj" android:id="@+id/qh_txt_kpj" android:text="kpj"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10px" android:id="@+id/qh_lab_sj" android:text="交易时间:" android:layout_below="@id/qh_lab_zrj"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/qh_lab_sj" android:id="@+id/qh_txt_sj" android:text="sj" android:layout_below="@id/qh_lab_zrj"></TextView>
+</RelativeLayout>

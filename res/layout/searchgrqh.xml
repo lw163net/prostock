@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/RelativeLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent"><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="wrap_content" android:background="@drawable/box1" android:layout_width="fill_parent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labjys" android:text="交易所:"></TextView>
+<Spinner android:layout_height="wrap_content" android:id="@+id/Spinnerjys" android:layout_width="fill_parent" android:layout_below="@id/labjys" android:layout_toRightOf="@id/labjys" android:layout_alignTop="@id/labjys" android:layout_marginLeft="15px"></Spinner>
+<TextView android:layout_below="@id/Spinnerjys" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labpz" android:text="品    种:"></TextView>
+<Spinner android:layout_below="@id/labpz" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/Spinnerpz" android:layout_toRightOf="@id/labpz" android:layout_alignTop="@id/labpz" android:layout_marginLeft="15px"></Spinner>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labhy" android:text="合    约:" android:layout_below="@id/Spinnerpz"></TextView>
+<Spinner android:layout_below="@id/labhy" android:layout_height="wrap_content" android:id="@+id/Spinnerhy" android:layout_width="fill_parent" android:layout_toRightOf="@id/labhy" android:layout_alignTop="@id/labhy" android:layout_marginLeft="15px"></Spinner>
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:layout_below="@id/Spinnerhy">
+
+    <Button
+        android:id="@+id/Btnsaveqh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="加载到自选择 " />
+
+    <Button
+        android:id="@+id/Btngrqhexit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="完成自选退出" />
+
+</LinearLayout>
+
+</RelativeLayout><LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:layout_below="@id/RelativeLayout01"><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加的自选期货:"></TextView><ListView android:id="@+id/lvqhselect" android:layout_height="wrap_content" android:layout_width="fill_parent"></ListView>
+
+</LinearLayout></RelativeLayout>
+
+
+
+

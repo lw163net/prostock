@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView android:layout_width="fill_parent" android:textSize="18px" android:text="story gose here  ..." android:layout_height="wrap_content" android:id="@+id/textrsstitle" android:gravity="center_horizontal" android:textStyle="bold"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_below="@+id/textrsstitle" android:layout_alignLeft="@+id/textrsstitle" android:id="@+id/textrsspubdate" android:layout_width="fill_parent" android:gravity="center_horizontal"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_below="@+id/textrsspubdate" android:layout_alignLeft="@+id/textrsspubdate" android:layout_width="fill_parent" android:id="@+id/textrssdescription" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_below="@+id/textrssdescription" android:layout_alignLeft="@+id/textrssdescription" android:id="@+id/textrsslink" android:layout_width="fill_parent" android:layout_alignRight="@+id/textrssdescription" android:autoLink="web"></TextView>
+</RelativeLayout>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="返回 " android:id="@+id/back"></Button>
+</LinearLayout>

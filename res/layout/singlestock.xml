@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  android:orientation="vertical">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="#bb0022"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gpid" android:id="@+id/txtid" android:layout_marginLeft="10px" android:textSize="25dp" android:layout_weight="1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gpmc" android:id="@+id/txtgpmc" android:layout_marginLeft="10px" android:textSize="25dp" android:layout_weight="1"></TextView><Button android:layout_height="wrap_content" android:id="@+id/btnsave" android:layout_alignParentBottom="true" android:layout_width="wrap_content" android:text="保存自选" android:layout_weight="1"></Button>
+</LinearLayout><RelativeLayout android:id="@+id/RelativeLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout01"><LinearLayout android:id="@+id/LinearLayout07" android:layout_below="@id/RelativeLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent"><LinearLayout android:id="@+id/LinearLayout06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtzxj" android:text="zxj" android:layout_marginLeft="10dp" android:textSize="40dp"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtzdf" android:text="zdf" android:layout_toRightOf="@+id/txtzxj" android:textSize="20dp"></TextView>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/txtzdf" android:layout_alignTop="@+id/txtzdf" android:orientation="vertical" android:layout_weight="1"><LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singzde" android:text="涨跌额:"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtzxj" android:layout_alignLeft="@id/txtid" android:id="@+id/txtzde" android:text="zde"></TextView></LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singjkp" android:layout_below="@+id/singzdf" android:layout_toRightOf="@+id/singzde" android:text="今开盘:" android:layout_alignLeft="@+id/singzdf">
+	</TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtzdf" android:layout_alignLeft="@id/txtzdf" android:id="@+id/txtjkp" android:text="jkp"></TextView></LinearLayout><LinearLayout android:id="@+id/LinearLayout08" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singzsp" android:layout_below="@id/singzde" android:text="昨收盘:"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtzde" android:layout_alignLeft="@id/txtid" android:id="@+id/txtzsp" android:text="zsp"></TextView></LinearLayout>
+</LinearLayout></LinearLayout>
+
+</RelativeLayout><ScrollView android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="5px" android:layout_marginRight="10px" android:layout_marginLeft="10px" android:layout_marginBottom="10px" android:layout_below="@+id/RelativeLayout04"><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_below="@+id/LinearLayout02" android:layout_height="fill_parent" android:background="@drawable/box3">
+	
+	
+	
+	
+	
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singzd" android:text="最    低:"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtzd" android:text="zd" android:layout_toRightOf="@id/singzd"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singzg" android:layout_centerHorizontal="true" android:text="最    高:"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtzg" android:text="zg" android:layout_toRightOf="@+id/singzg"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singcjl" android:layout_below="@id/singzd" android:text="成交量:"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtzd" android:text="cjl" android:id="@+id/txtcjl" android:layout_toRightOf="@id/singcjl"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singcje" android:layout_below="@id/singzg" android:text="成交额:" android:layout_alignLeft="@id/singzg"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtcje" android:text="cje" android:layout_alignTop="@id/singcje" android:layout_toRightOf="@id/singcje"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singjmj" android:layout_below="@id/singcjl" android:text="竟买价:" android:layout_alignLeft="@id/singcjl"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtcjl" android:id="@+id/txtjmj" android:text="jmj" android:layout_toRightOf="@id/singjmj"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singjmj2" android:layout_below="@id/singcje" android:text="竟卖价:" android:layout_alignLeft="@id/singcje"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtcje" android:text="jmj2" android:id="@+id/txtjmj2" android:layout_toRightOf="@id/singjmj2"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singhqsj" android:layout_alignLeft="@id/singjmj" android:text="行情时间:" android:layout_below="@id/singjmj"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtjmj" android:id="@+id/hqsj" android:text="hqsj" android:layout_alignLeft="@id/txtgpmc" android:layout_toRightOf="@id/singhqsj"></TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout></ScrollView><LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_marginLeft="10px" android:layout_marginRight="10px" android:layout_width="fill_parent" android:layout_below="@+id/ScrollView01"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分时" android:id="@+id/btn_fs" android:layout_weight="1" android:background="@drawable/sfb_btn_off_p"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_k" android:text="日K线" android:layout_weight="1" android:background="@drawable/sfb_btn_off_p"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_zk" android:text="周K线" android:layout_weight="1" android:background="@drawable/sfb_btn_off_p"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_yk" android:text="月K线" android:layout_weight="1" android:background="@drawable/sfb_btn_off_p"></Button>
+
+</LinearLayout><RelativeLayout android:id="@+id/RelativeLayout02" android:background="@drawable/box3" android:layout_width="fill_parent" android:layout_marginBottom="5px" android:layout_marginLeft="10px" android:layout_marginRight="10px" android:layout_marginTop="10px" android:layout_height="220dp" android:layout_below="@+id/LinearLayout02"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imagesingstock"></ImageView><ProgressBar android:id="@+id/ProgressBar01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"></ProgressBar><RelativeLayout android:id="@+id/RelativeLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000" android:id="@+id/singm" android:layout_below="@id/singjmj2" android:text="买入(1-5):"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/singmm" android:textColor="#000000" android:text="卖出(1-5):" android:layout_alignLeft="@+id/singgpmc" android:layout_below="@+id/singhqsj">
+</TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="m" android:textColor="#000000" android:id="@+id/txtm1" android:layout_below="@+id/singm" android:layout_alignLeft="@+id/singm"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtm2" android:textColor="#000000" android:layout_alignLeft="@+id/txtm1" android:text="m2" android:layout_below="@id/txtm1"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="m3" android:id="@+id/txtm3" android:layout_below="@id/txtm2" android:layout_alignLeft="@+id/txtm1" android:textColor="#000000"></TextView><TextView android:layout_below="@id/txtm3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/txtm1" android:text="m4" android:id="@+id/txtm4" android:textColor="#000000"></TextView><TextView android:layout_below="@id/txtm4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/txtm1" android:id="@+id/txtm5" android:text="m5" android:textColor="#000000"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mm" android:textColor="#000000" android:id="@+id/txtmm1" android:layout_below="@+id/singmm" android:layout_alignLeft="@+id/singmm"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtmm1" android:layout_alignLeft="@+id/txtmm1" android:text="mm2" android:textColor="#000000" android:id="@+id/txtmm2"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtmm2" android:layout_alignLeft="@+id/txtmm1" android:id="@+id/txtmm3" android:textColor="#000000" android:text="mm3"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/txtmm1" android:layout_below="@id/txtmm3" android:id="@+id/txtmm4" android:text="mm4" android:textColor="#000000"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/txtmm1" android:text="mm5" android:textColor="#000000" android:id="@+id/txtmm5" android:layout_below="@id/txtmm4"></TextView></RelativeLayout></RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
+
+

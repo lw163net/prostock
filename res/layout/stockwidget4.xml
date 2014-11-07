@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+				android:id="@+id/RelativeLayout01" 
+				android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_margin="7dp" android:background="@drawable/boxred">
+	<RelativeLayout android:id="@+id/RelativeLayout04" android:layout_height="wrap_content" 
+					android:layout_width="fill_parent" android:background="@drawable/boxtitle" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_marginBottom="1dp" android:layout_marginTop="2dp">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				  android:id="@+id/labshindex" android:text="上证指数:" 
+				  android:textStyle="bold" android:layout_marginLeft="10px" 
+				  android:textColor="#FFFFFF">
+		</TextView>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				  android:id="@+id/txtshindex" android:layout_toRightOf="@+id/labshindex" 
+				  android:layout_marginLeft="10px">
+		</TextView>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				  android:id="@+id/labszindex" android:layout_below="@+id/labshindex" 
+				  android:text="深圳成指:" android:textStyle="bold" 
+				  android:layout_marginLeft="10px" android:textColor="#FFFFFF">
+		</TextView>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				  android:layout_toRightOf="@+id/labszindex" android:id="@+id/txtszindex" 
+				  android:layout_below="@+id/txtshindex" android:layout_marginLeft="10px">
+		</TextView>
+		<TextView android:layout_below="@id/txtszindex" android:layout_width="wrap_content" 
+			      android:layout_height="wrap_content" android:id="@+id/txttime" 
+				  android:layout_alignParentRight="true" android:layout_alignTop="@+id/labshindex" 
+				  android:textStyle="bold|italic" android:textSize="28dp"
+				   android:layout_marginRight="5px">
+		</TextView>
+	</RelativeLayout>
+		<LinearLayout android:id="@+id/LinearLayout06" android:layout_height="wrap_content" 
+					  android:layout_width="fill_parent" android:layout_below="@+id/RelativeLayout04" 
+					  android:layout_marginTop="3dp">
+					  
+				<LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" 
+						      android:layout_marginLeft="10px" android:orientation="vertical" 
+						      android:layout_width="wrap_content" android:layout_weight="1">
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/dm2" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/dm3" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/dm4" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/dm5" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm6"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm7"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm8"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm9"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm10"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm11"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm12"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm13"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm14"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm15"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm16"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm17"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/dm18"></TextView>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/LinearLayout03" android:layout_below="@id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_weight="1">
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/mc2" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc3"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/mc4" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc5"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc6"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc7"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc8"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc9"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc10"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc11"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc12"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc13"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc14"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc15"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc16"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc17"></TextView>
+
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/mc18"></TextView>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/LinearLayout04" android:layout_below="@id/LinearLayout03" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="wrap_content" android:layout_weight="1">
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/xj2" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj3"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj4"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/xj5" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj6"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj7"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj8"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj9"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj10"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj11"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj12"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj13"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj14"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj15"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj16"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj17"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/xj18"></TextView>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/LinearLayout05" android:layout_below="@id/LinearLayout04" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:layout_weight="1">
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf1">
+					</TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/zdf2" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/zdf3" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/zdf4" android:layout_weight="1"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf5"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf6"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf7"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf8"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf9"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf10"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf11"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf12"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf13"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf14"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf15"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf16"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf17"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/zdf18"></TextView>
+				</LinearLayout>
+		</LinearLayout>
+		<RelativeLayout android:id="@+id/RelativeLayout02" android:layout_width="wrap_content" android:background="@drawable/box1" android:layout_height="wrap_content" android:layout_below="@+id/RelativeLayout04">
+			</RelativeLayout>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentBottom="true" android:orientation="vertical" android:paddingBottom="2dp" android:paddingLeft="2dp" android:paddingRight="2dp"><LinearLayout android:id="@+id/LinearLayout07" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="#550000" android:orientation="horizontal">
+
+<LinearLayout
+    android:id="@+id/linearLayoutstatusbar"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:visibility="invisible">
+
+    <ProgressBar
+        android:id="@+id/ProBarZt"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="visible" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/txtgeterr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textconstate"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textnetstate"></TextView>
+
+</LinearLayout><LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_alignParentBottom="true" android:layout_width="fill_parent" android:background="@drawable/boxbottom">
+    <Button android:layout_height="wrap_content" android:text="上一页" android:id="@+id/btnplayleft" android:layout_width="wrap_content" android:gravity="center" android:layout_weight="1" android:textStyle="bold" android:background="@drawable/btnwidgetitem"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:textStyle="bold" android:background="@drawable/btnwidgetitem" android:id="@+id/btnswicth" android:text="播    报"></Button>
+    <Button android:layout_height="wrap_content" android:text="详    情" android:id="@+id/btnref" android:layout_width="wrap_content" android:layout_weight="1" android:textStyle="bold" android:background="@drawable/btnwidgetitem"></Button>
+    <Button android:layout_height="wrap_content" android:text="下一页" android:id="@+id/btnplayright" android:layout_width="wrap_content" android:layout_weight="1" android:textStyle="bold" android:background="@drawable/btnwidgetitem"></Button>
+
+</LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

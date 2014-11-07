@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  		<item android:title="@string/menu_ref" 
+			  android:id="@+id/item_qh_ref" 
+			  android:icon="@drawable/repeat">
+		</item>
+		<item android:title="@string/menu_addgjqh" 
+			  android:id="@+id/item_qh_addgjqh" 
+			  android:icon="@drawable/netvibes">
+		</item>
+		<item android:title="@string/menu_addgrqh" 
+			  android:id="@+id/item_qh_addgrqh" 
+			  android:icon="@drawable/netvibes">
+		</item>
+		<item android:title="@string/menu_setup" 
+			  android:id="@+id/item_setup" 
+			  android:icon="@drawable/setting">
+		</item>
+		
+		<item android:title="@string/menu_exit" 
+			  android:id="@+id/item_exit" 
+			  android:icon="@drawable/exit">
+		</item>
+		<item android:title="@string/menu_about"
+			  android:id="@+id/item_about"
+			  android:icon="@drawable/user">
+		</item>
+</menu>
