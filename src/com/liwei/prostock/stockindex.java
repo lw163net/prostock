@@ -43,10 +43,6 @@ public class stockindex extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		
-		
-		
-		
-		
 		getattr=1;
 //		SharedPreferences sp1=getSharedPreferences("prostock",Context.MODE_PRIVATE);
 //    	Editor editor1=sp1.edit();
